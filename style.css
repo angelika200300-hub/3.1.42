@@ -6,7 +6,7 @@ src: url('fonts/TTLakes-Medium.ttf');
 body {
   margin: 0;
   padding: 0;
-  width: 320px;
+ 
   background-color: #f8f8f8;
   ;
 }
@@ -14,7 +14,7 @@ body {
 .header {
   background-color: #ffffff;
   height: 88px;
-  width: 768px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,7 +180,7 @@ justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-  .header {width: 320px;}
+
   .header_two {width: 120px;}
   .burger {order: -1}
   .header_one .divider {order: 0;}
