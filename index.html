@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="tour-decorative.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Программа тура</title>
-</head>
-<body>
-<header class="page-header">
-  <h1 class="title"><span class="accent">Программа тура</span> «Романтический отдых в Норильске»</h1>
-  <blockquote class="quote">
-    «Это даже лучше, чем Испания!»<br>
-    <cite>— наш клиент</cite>
-  </blockquote>
-</header>
-<main class="page-main">
-  <ol class="days-list">
-    <li class="day day-1">
-      <h2>День первый</h2>
-      <p>Прилёт. Размещение в отеле. Ужин.</p>
-    </li>
-    <li class="day day-2">
-      <h2>День второй</h2>
-      <p>Завтрак. Обзорная экскурсия по городу. Ужин. Посещение театра.</p>
-    </li>
-    <li class="day day-3">
-      <h2>День третий</h2>
-      <p>Завтрак. Свободный день или посещение аквапарка. Ужин.</p>
-    </li>
-    <li class="day day-4">
-      <h2>День четвёртый</h2>
-      <p>Завтрак. Трансфер до аэропорта.</p>
-    </li>
-  </ol>
-</main>
-<footer class="page-footer">
-  © 2020 — какой год, такие туры
-</footer>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="вёрстка, HTML, CSS">
+    <meta name="description" content="Практическая задача 3.1.4">
+    <title>Практическая задача 3.1.4</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_one">
+        <button type="image" class="burger"><img src="img/burger.png" alt="меню"></button>
+        <button type="image" class="logo"><img src="img/group.png" alt="лого"></button>
+        <img src="img/divider.png" alt="" class="divider">
+      </div>
+      <div class="header_two">
+        <button type="image" class="call"><img src="img/call.png" alt="звонок"></button>
+        <button type="image" class="chat"><img src="img/chat.png" alt="чат"></button>
+        <button type="image" class="profile"><img src="img/profile.png" alt="профиль"></button>
+        <img src="img/divider.png" alt="" class="divider_two">
+        <button type="image"><img src="img/repair.png" alt="услуги"></button>
+        <button type="image"><img src="img/checkstatus.png" alt="поиск"></button>
+      </div>
+    </header>
+    <main>
+      <section class="headline">
+        <img src="img/highlight.png" alt="" height="40px">
+        <h1>Услуги и сервисы</h1>
+      </section>
+
+      <nav>
+        <ul>
+          <li class="active">Ремонтируемые устройства</li>
+          <li>Дополнительные услуги</li>
+          <li>Цены на услуги</li>
+          <li>Специальные цены</li>
+        </ul>
+      </nav>
+<div class="card">
+  <div class="info">
+      <article class="description">
+        <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+        <p class="p_second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+      </article>
+
+      <article class="read">
+        <img src="img/expand.png" alt="" height="24px">
+        <p>Читать далее</p>
+      </article>
+  </div>
+      <div class="foto">
+        <img src="img/PictureCopy.png" alt="" class="PictureCopy">
+      </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  
+    </footer>
+    
+  </body>
 </html>
