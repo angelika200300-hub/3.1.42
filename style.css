@@ -136,7 +136,7 @@ margin: 0;
   width: 768px;
   height: 208px;
  display: flex;
-
+justify-content: space-between;
 
 
 }
