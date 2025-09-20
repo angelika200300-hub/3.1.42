@@ -198,6 +198,7 @@ justify-content: space-between;
   }
   
   ul {width: 504px;}
+  li {overflow: hidden;}
 
   .description {margin-left: 20px; }
   .p_second {display: none;}
