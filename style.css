@@ -6,7 +6,7 @@ src: url('fonts/TTLakes-Medium.ttf');
 body {
   margin: 0;
   padding: 0;
-  width: 320px;
+ font-family: "TTLakes-Medium", "Arial", sans-serif;
   background-color: #f8f8f8;
   ;
 }
@@ -68,6 +68,7 @@ h1 {
   font-size: 28px;
   margin: auto;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
+  margin-left: 16px;
 }
 
 ul {
@@ -75,12 +76,15 @@ ul {
   padding: 0;
   display: flex;
   list-style: none;
-  width: 900px;
-  height: 40px;
+  width: 1000px;
+
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   justify-content: flex-start;
   align-items: center;
-  overflow: hidden;
+  overflow: scroll;
+  flex-wrap: wrap;
+  margin-left: 8px;
+ 
 }
 
 li {
@@ -88,14 +92,15 @@ li {
   font-size: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-left: 16px;
-  margin-right: 12px;;
+  margin-left: 15px;
+  margin-right: 15px;;
 }
 
-.active {
+.active:nth-child(2n) { 
  border: 2px solid #B8FFEC;
- padding-left: 13px;
- padding-right: 13px;
+
+ padding-left: 15px;
+ padding-right: 15px;
  border-radius: 6px;
  background-color: #ffffff;
 }
@@ -114,6 +119,10 @@ margin: 0;
 
 .p_second {
   margin-top: 20px;
+}
+
+.p_third {
+  display: none;
 }
 
 .description {
@@ -135,9 +144,9 @@ margin: 0;
   color: #1B1C21;
   width: 768px;
   height: 208px;
-  margin-left: auto;
-  margin-right: auto;
+ display: flex;
 justify-content: space-between;
+
 
 }
 
@@ -153,7 +162,7 @@ justify-content: space-between;
   align-items: center;
   height: 64px;
   width: 132px;
-  margin-left: 30px;
+  margin-left: 22px;
   font-size: 16px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   margin-top:60px;
@@ -178,9 +187,20 @@ justify-content: space-between;
   height: 20px;
   
 }
+.header_three {display: none;}
+.highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px;}
+
+ li:nth-of-type(1) {
+    display: none;
+  }
+
+    li:nth-child(5n),
+    li:nth-child(7n) {
+    display: none;
+    }
 
 @media screen and (max-width: 768px) {
-  .header {width: 320px;}
+.header {width: 320px;}
   .header_two {width: 120px;}
   .burger {order: -1}
   .header_one .divider {order: 0;}
@@ -192,15 +212,25 @@ justify-content: space-between;
   .profile,
   .divider_two {display: none}
 
-  li:nth-child(3n),
-  li:nth-child(4n) {
-    display: none
+  li:nth-of-type(1) {
+    display: none;
   }
   
-  ul {width: 504px;}
+  li:nth-child(4n),
+  li:nth-child(5n),
+  li:nth-child(6n),
+  li:nth-child(7n) {
+    display: none;
+  }
+  
+  ul {width: 504px; margin-left: 8px; overflow: scroll;}
+  li {overflow: hidden;
+  margin-left: 10px;
+margin-right: 10px;}
 
   .description {margin-left: 20px; }
-  .p_second {display: none;}
+  .p_second,
+  .p_third {display: none;}
 
  .card {display: flex; flex-direction: column;}
 
@@ -209,9 +239,126 @@ justify-content: space-between;
 .PictureCopy {width: 320px; border-radius: 0;}
 
 .read {margin-top: 0;}
+.header_three {display: none;}
+.highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px; width: 288px;}
+  }
 
-.footer {
+@media screen and (min-width: 1096px) {
+ .header {display: none;}
 
+ .headline_one {
+  margin: 0;
+  padding: 0;
+  width: 1120px;
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+ 
+}
+
+ .highlight_one {
+display: flex;
+  }
+
+.header_three {
+
+display: flex;
+  align-items: center;
   
 }
+
+.header_three button {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.header_three p {
+  padding-right: 10px;
+  font-family: "TTLakes-Medium", "Arial", sans-serif;
+  
+}
+
+.header_three button:nth-child(1n) {
+  margin-right: 30px;
+}
+
+
+
+li:nth-child(3n) {
+    display: none;
+}
+
+ li:nth-of-type(1) {
+    display: inline;
   }
+li:nth-child(5n),
+li:nth-child(6n),
+li:nth-child(7n) {
+display: inline;
+}
+
+li:nth-child(7n) {
+  margin-left: 28px;
+  margin-top: 10px;
+}
+
+ul {
+
+  width: 1096px;
+}
+
+li {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:nth-of-type(1) {
+ border: 2px solid #B8FFEC;
+
+ padding-left: 4px;
+ padding-right: 4px;
+ border-radius: 6px;
+ background-color: #ffffff;
+  padding-left: 15px;
+ padding-right: 15px;
+}
+.active:nth-child(2n) {
+border: none;
+
+ padding-left: none;
+ padding-right: none;
+ border-radius: none;
+ background-color: #f8f8f8;
+}
+
+.card {
+  width: 1084px;
+}
+
+.info {
+  width: 517px;
+}
+
+.PictureCopy {
+  width: 531.35px;
+}
+
+.description {
+  height: 90px;
+}
+
+.p_second {
+  display: none;
+}
+
+.p_third {
+  display: inline;
+}
+
+.read {
+  margin-top: 65px;
+}
+
+}
