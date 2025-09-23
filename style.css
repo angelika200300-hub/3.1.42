@@ -14,7 +14,7 @@ body {
 .header {
   background-color: #ffffff;
   height: 88px;
-  width: 768px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -307,6 +307,7 @@ li:nth-child(7n) {
 ul {
 
   width: 1096px;
+  overflow: none;
 }
 
 li {
