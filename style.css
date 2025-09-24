@@ -11,6 +11,10 @@ body {
   ;
 }
 
+.main {
+  overflow: hidden;
+}
+
 .header {
   background-color: #ffffff;
   height: 88px;
@@ -81,7 +85,7 @@ ul {
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   justify-content: flex-start;
   align-items: center;
-  overflow: auto;
+
   flex-wrap: wrap;
   margin-left: 8px;
  
@@ -223,7 +227,7 @@ justify-content: space-between;
     display: none;
   }
   
-  ul {width: 504px; margin-left: 8px; overflow: auto;}
+  ul {width: 504px; margin-left: 8px;}
   li {overflow: hidden;
   margin-left: 10px;
 margin-right: 10px;}
@@ -241,6 +245,10 @@ margin-right: 10px;}
 .read {margin-top: 0;}
 .header_three {display: none;}
 .highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px; width: 288px;}
+
+.main {
+  overflow: hidden;
+}
   }
 
 @media screen and (min-width: 1096px) {
@@ -307,7 +315,6 @@ li:nth-child(7n) {
 ul {
 
   width: 1096px;
-  overflow: none;
 }
 
 li {
