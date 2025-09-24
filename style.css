@@ -82,7 +82,7 @@ ul {
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   justify-content: flex-start;
   align-items: center;
-  overflow: scroll;
+  overflow-x: scroll;
   flex-wrap: wrap;
   margin-left: 8px;
  
@@ -228,7 +228,7 @@ justify-content: space-between;
     display: none;
   }
   
-  ul {width: 504px; margin-left: 8px; overflow: scroll;}
+  ul {width: 504px; margin-left: 8px; verflow-x: scroll;}
   li {
   margin-left: 10px;
 margin-right: 10px;}
