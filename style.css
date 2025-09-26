@@ -72,6 +72,16 @@ h1 {
   margin-left: 16px;
 }
 
+nav {
+  display: block;
+  unicode-bidi: isolate;
+  max-width: 780vw;
+  overflow-x: hidden;
+    margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -83,11 +93,13 @@ ul {
   justify-content: flex-start;
   align-items: center;
   overflow-x: scroll;
-  flex-wrap: wrap;
-  margin-left: auto;
+  flex-wrap: nowrap;
+  width: 88vw;
+    margin-left: auto;
   margin-right: auto;
  
 }
+
 
 li {
   color: #7E7E82;
@@ -231,17 +243,16 @@ margin-right: auto;
     display: none;
   }
 
-.nav {
-  display: block;
-  unicode-bidi: isolate;
-  max-width: 45vw;
-  overflow-x: hidden;
-}
+
 
   ul {margin-left: 8px; 
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
+  width: 67vw;
+  margin-left: auto;
+  margin-right: auto;
+
     
 }
   li {
@@ -329,10 +340,17 @@ li:nth-child(7n) {
   margin-top: 10px;
 }
 
+
 ul {
 
   width: 1096px;
+  overflow-x: none;
+  overflow: none;
+  flex-wrap: wrap;
+
 }
+
+
 
 li {
   margin-left: 12px;
