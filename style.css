@@ -243,16 +243,27 @@ margin-right: auto;
     display: none;
   }
 
-
+nav {
+   display: block;
+  unicode-bidi: isolate;
+  max-width: 780vw;
+  overflow-x: hidden;
+    margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
 
   ul {margin-left: 8px; 
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: scroll;
-  width: 67vw;
-  margin-left: auto;
-  margin-right: auto;
 
+
+  font-family: "TTLakes-Medium", "Arial", sans-serif;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  width: 77vw;
+    margin-left: auto;
+  margin-right: auto;
     
 }
   li {
