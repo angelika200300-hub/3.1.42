@@ -77,14 +77,15 @@ ul {
   padding: 0;
   display: flex;
   list-style: none;
-  width: 1000px;
+  width: 826px;
 
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   justify-content: flex-start;
   align-items: center;
   overflow-x: scroll;
   flex-wrap: wrap;
-  margin-left: 8px;
+  margin-left: auto;
+  margin-right: auto;
  
 }
 
@@ -147,6 +148,8 @@ margin: 0;
   height: 208px;
  display: flex;
 justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
 
 
 }
@@ -205,7 +208,7 @@ justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-.header {width: 320px;}
+
   .header_two {width: 120px;}
   .burger {order: -1}
   .header_one .divider {order: 0;}
@@ -227,8 +230,20 @@ justify-content: space-between;
   li:nth-child(7n) {
     display: none;
   }
-  
-  ul {width: 504px; margin-left: 8px; verflow-x: scroll;}
+
+.nav {
+  display: block;
+  unicode-bidi: isolate;
+  max-width: 45vw;
+  overflow-x: hidden;
+}
+
+  ul {margin-left: 8px; 
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    
+}
   li {
   margin-left: 10px;
 margin-right: 10px;}
@@ -237,7 +252,7 @@ margin-right: 10px;}
   .p_second,
   .p_third {display: none;}
 
- .card {display: flex; flex-direction: column;}
+ .card {display: flex; flex-direction: column; width: 320px;}
 
  .info {width: 300px;}
 
@@ -259,7 +274,7 @@ margin-right: 10px;}
  .headline_one {
   margin: 0;
   padding: 0;
-  width: 1120px;
+
   display: flex;
 justify-content: space-between;
   align-items: center;
