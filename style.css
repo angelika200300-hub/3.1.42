@@ -54,6 +54,13 @@ body {
   margin-right: 10px;
 }
 
+.header_two button{
+ display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  border: none;
+}
+
 
 .headline {
  height: 40px;
