@@ -55,10 +55,7 @@ body {
   
 }
 
-.header_two .repair, .checkstatus {
-  background-color: #f8f8f8;
-   border: none;
-}
+
 
 
 .headline {
@@ -225,13 +222,7 @@ margin-right: auto;
 
 @media screen and (max-width: 768px) {
 
-  .header_two {width: 120px; }
-
-  
-.header_two .repair, .checkstatus {
-  background-color: #f8f8f8;
-   border: none;
-}
+  .header_two {width: 120px;}
   .burger {order: -1}
   .header_one .divider {order: 0;}
   .logo {margin-left: -10px;}
