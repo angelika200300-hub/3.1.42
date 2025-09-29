@@ -52,6 +52,12 @@ body {
   align-items: center;
   width: 300px;
   margin-right: 10px;
+  
+}
+
+.header_two .repair, .checkstatus {
+  background-color: #f8f8f8;
+   border: none;
 }
 
 
@@ -219,7 +225,13 @@ margin-right: auto;
 
 @media screen and (max-width: 768px) {
 
-  .header_two {width: 120px;}
+  .header_two {width: 120px; }
+
+  
+.header_two .repair, .checkstatus {
+  background-color: #f8f8f8;
+   border: none;
+}
   .burger {order: -1}
   .header_one .divider {order: 0;}
   .logo {margin-left: -10px;}
@@ -325,12 +337,13 @@ display: flex;
   
 }
 
-.header_three button {
+.header_three .repair, .checkstatus {
   display: flex;
   align-items: center;
   background-color: #f8f8f8;
    border: none;
 }
+
 .header_three p {
   padding-right: 10px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
