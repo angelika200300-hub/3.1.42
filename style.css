@@ -325,12 +325,11 @@ display: flex;
   
 }
 
-.header_three .repair, .checkstatus {
+.header_three button {
   display: flex;
   align-items: center;
   background-color: #f8f8f8;
   border: none;
-  
 }
 .header_three p {
   padding-right: 10px;
