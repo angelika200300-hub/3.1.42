@@ -298,6 +298,11 @@ margin-right: auto;}
 }
 
 @media screen and (min-width: 1120px) {
+
+  .repair, .checkstatus {
+  background-color: #ffffff;
+  border: none;
+}
  .header {display: none;}
 
  .headline_one {
