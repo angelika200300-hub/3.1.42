@@ -24,7 +24,7 @@ body {
   padding: 0;
  }
 
-button {
+.burger, .logo, .call, .chat, .profile, .repair, .checkstatus {
   background-color: #ffffff;
   border: none;
 }
@@ -146,6 +146,7 @@ margin: 0;
   height: 90px;
   margin-left: 20px;
   margin-right: auto;
+  width: 41vw;
 }
 
 .card {
@@ -154,7 +155,7 @@ margin: 0;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   font-size: 14px;
   color: #1B1C21;
-  width: 768px;
+  width: 100vw;
   height: 208px;
  display: flex;
 justify-content: space-between;
@@ -166,7 +167,7 @@ margin-right: auto;
 
 .info {
   margin: 0;
-  width: 330px;
+
   
 }
 
@@ -174,7 +175,7 @@ margin-right: auto;
 
   display: flex;
   align-items: center;
-  height: 64px;
+
   width: 132px;
   margin-left: 22px;
   font-size: 16px;
@@ -193,8 +194,9 @@ margin-right: auto;
 }
 
 .PictureCopy {
- width: 360px;
+ width: 47vw;
  border-radius: 10px;
+ margin-right: 20px;
 }
 
 .footer {
@@ -266,26 +268,36 @@ nav {
   margin-left: 10px;
 margin-right: 10px;}
 
-  .description {margin-left: 20px; }
+  .description {
+    margin-left: 20px; 
+  width: 88vw;
+margin-left: auto;
+margin-right: auto;}
+
+
   .p_second,
   .p_third {display: none;}
 
- .card {display: flex; flex-direction: column; width: 320px;}
+ .card {display: flex; flex-direction: column;}
 
- .info {width: 300px;}
 
-.PictureCopy {width: 320px; border-radius: 0;}
 
-.read {margin-top: 0;}
+.PictureCopy {width: 100vw; border-radius: 0; margin-right: 0;}
+
+.read {margin-top: 2vw; margin-left: 7vw;}
 .header_three {display: none;}
-.highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px; width: 288px;}
-
-
-
+.highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px; width: 91vw;}
 
   }
 
-@media screen and (min-width: 1096px) {
+
+  @media screen and (min-width: 1000px) {
+  .description {width: 45vw;}
+  .PictureCopy {width: 48vw;
+}
+}
+
+@media screen and (min-width: 1120px) {
  .header {display: none;}
 
  .headline_one {
@@ -383,7 +395,7 @@ border: none;
 }
 
 .card {
-  width: 1084px;
+
 }
 
 .info {
@@ -391,11 +403,14 @@ border: none;
 }
 
 .PictureCopy {
-  width: 531.35px;
+  width: 48vw;
+  margin-right: 20px;
+
 }
 
 .description {
-  height: 90px;
+
+  width: 44vw;
 }
 
 .p_second {
