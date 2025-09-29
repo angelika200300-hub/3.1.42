@@ -52,10 +52,7 @@ body {
   align-items: center;
   width: 300px;
   margin-right: 10px;
-  
 }
-
-
 
 
 .headline {
@@ -302,7 +299,10 @@ margin-right: auto;}
 
 @media screen and (min-width: 1120px) {
 
-
+  .repair, .checkstatus {
+  background-color: #ffffff;
+  border: none;
+}
  .header {display: none;}
 
  .headline_one {
@@ -328,13 +328,11 @@ display: flex;
   
 }
 
-.header_three .repair, .checkstatus {
+.header_three button {
   display: flex;
   align-items: center;
   background-color: #f8f8f8;
-   border: none;
 }
-
 .header_three p {
   padding-right: 10px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
