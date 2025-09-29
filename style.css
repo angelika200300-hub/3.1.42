@@ -299,10 +299,7 @@ margin-right: auto;}
 
 @media screen and (min-width: 1120px) {
 
-  .repair, .checkstatus {
-  background-color: #ffffff;
-  border: none;
-}
+
  .header {display: none;}
 
  .headline_one {
@@ -328,10 +325,12 @@ display: flex;
   
 }
 
-.header_three button {
+.header_three .repair, .checkstatus {
   display: flex;
   align-items: center;
   background-color: #f8f8f8;
+  border: none;
+  
 }
 .header_three p {
   padding-right: 10px;
