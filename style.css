@@ -43,7 +43,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 300px;
   margin-right: 10px;
 }
 
