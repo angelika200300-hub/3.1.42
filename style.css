@@ -81,11 +81,11 @@ h1 {
 nav {
   display: block;
   unicode-bidi: isolate;
-  max-width: 780vw;
   overflow-x: hidden;
   margin-left: auto;
   margin-right: auto;
   white-space: nowrap;
+  max-width: 818px;
 }
 
 ul {
@@ -98,9 +98,10 @@ ul {
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
-  width: 77vw;
+width: 97vw;
   margin-left: auto;
   margin-right: auto;
+
  
 }
 
@@ -259,7 +260,7 @@ margin-right: auto;
 nav {
    display: block;
   unicode-bidi: isolate;
-  max-width: 780vw;
+  max-width: 567px;
   overflow-x: hidden;
     margin-left: auto;
   margin-right: auto;
@@ -274,9 +275,10 @@ nav {
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
-  width: 77vw;
+ 
     margin-left: auto;
   margin-right: auto;
+  width: 94vw;
     
 }
   li {
