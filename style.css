@@ -54,7 +54,12 @@ body {
   margin-right: 10px;
 }
 
-
+.header_two button {
+  
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+}
 
 .headline {
  height: 40px;
@@ -221,6 +226,15 @@ margin-right: auto;
 @media screen and (max-width: 768px) {
 
   .header_two {width: 120px;}
+
+
+  .header_two button {
+    align-items: center;
+  background-color: #ffffff;
+  border: none;
+}
+
+
   .burger {order: -1}
   .header_one .divider {order: 0;}
   .logo {margin-left: -10px;}
