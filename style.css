@@ -76,7 +76,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   white-space: nowrap;
-  max-width: 818px;
+  max-width: 828px;
 }
 
 ul {
@@ -89,7 +89,7 @@ ul {
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
-  width: 97vw;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
