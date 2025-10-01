@@ -345,7 +345,7 @@ li {
 }
 
 @media screen and (min-width: 1167px) {
-nav {max-width: 1155px;}
+nav {max-width: 1172px;}
 
 li:nth-child(7n) {margin-top: 0;}
 }
