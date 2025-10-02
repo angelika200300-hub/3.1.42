@@ -50,6 +50,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   border: none;
+  margin: 5px;
 }
 
 .headline {
@@ -73,10 +74,9 @@ nav {
   display: block;
   unicode-bidi: isolate;
   overflow-x: hidden;
-  margin-left: auto;
   margin-right: auto;
   white-space: nowrap;
-  max-width: 828px;
+  margin-left: 4px;
 }
 
 ul {
@@ -89,7 +89,6 @@ ul {
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
-  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,7 +102,9 @@ li {
   margin-right: 15px;;
 }
 
-.active:nth-child(2n) { 
+.divider_two {margin-left: 10px; margin-right: 10px;}
+
+.active:nth-child(1) { 
   border: 2px solid #B8FFEC;
   padding-left: 15px;
   padding-right: 15px;
@@ -141,7 +142,6 @@ p {margin: 0;}
   font-size: 14px;
   color: #1B1C21;
   width: 100vw;
-  height: 208px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -177,10 +177,6 @@ p {margin: 0;}
 
 .highlight_one {display: flex; margin-bottom: 20px; margin-top: 20px;}
 
-li:nth-of-type(1) {display: none;}
-
-li:nth-child(5n),
-li:nth-child(7n) {display: none;}
 
 @media screen and (max-width: 768px) {
 
@@ -203,41 +199,26 @@ li:nth-child(7n) {display: none;}
 .profile,
 .divider_two {display: none}
 
-li:nth-of-type(1) {display: none;}
-  
-li:nth-child(4n),
-li:nth-child(5n),
-li:nth-child(6n),
-li:nth-child(7n) {display: none;}
-
 nav {
   display: block;
   unicode-bidi: isolate;
-  max-width: 476px;
   overflow-x: hidden;
-  margin-left: auto;
   margin-right: auto;
   white-space: nowrap;
 }
 
 ul {
-  margin-left: 8px; 
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   justify-content: flex-start;
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
-  margin-left: auto;
   margin-right: auto;
-  width: 94vw;
 }
 
-li {margin-left: 10px; margin-right: 10px;}
-
 .description {
-  margin-left: 20px; 
-  width: 88vw;
-  margin-left: auto;
+  width: 91vw;
+  margin-left: 20px;
   margin-right: auto;}
 
 .p_second,
@@ -290,22 +271,14 @@ li {margin-left: 10px; margin-right: 10px;}
 
 .header_three button:nth-child(1n) {margin-right: 30px;}
 
-li:nth-child(3n) {display: none;}
+li:nth-child(7n) {margin-top: 0;}
 
-li:nth-of-type(1) {display: inline;}
-
-li:nth-child(5n),
-li:nth-child(6n),
-li:nth-child(7n) {display: inline;}
-
-li:nth-child(7n) {margin-left: 28px; margin-top: 10px;}
-
-nav {max-width: 1089px;}
+nav {overflow-x: hidden; margin-left: 8px;}
 
 ul {
   width: 100vw;
   overflow: hidden;
-  flex-wrap: wrap;
+  overflow-x: scroll;
 }
 
 li {
@@ -345,7 +318,7 @@ li {
 }
 
 @media screen and (min-width: 1167px) {
-nav {max-width: 1172px;}
+nav {max-width: 1325px; margin-left: 8px;}
 
 li:nth-child(7n) {margin-top: 0;}
 }
