@@ -1,79 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-      <meta charset="utf-8">
-      <meta name="keywords" content="вёрстка, HTML, CSS">
-      <meta name="description" content="Практическая задача 3.1.4">
-      <title>Практическая задача 3.1.4</title>
-      <link rel="stylesheet" href="style.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="вёрстка, HTML, CSS">
+  <meta name="description" content="Практическая задача 3.1.4">
+  <title>Практическая задача 3.1.4</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <header class="header">
-      <div class="header_one">
-        <button type="image" class="burger"><img src="img/burger.png" alt="меню"></button>
-        <button type="image" class="logo"><img src="img/group.png" alt="лого"></button>
-        <img src="img/divider.png" alt="" class="divider">
-      </div>
-      <div class="header_two">
-        <button type="image" class="call"><img src="img/call.png" alt="звонок"></button>
-        <button type="image" class="chat"><img src="img/chat.png" alt="чат"></button>
-        <button type="image" class="profile"><img src="img/profile.png" alt="профиль"></button>
-        <img src="img/divider.png" alt="" class="divider_two">
-        <button type="image" class="repair"><img src="img/repair.png" alt="услуги"></button>
-        <button type="image" class="checkstatus"><img src="img/checkstatus.png" alt="поиск"></button>
-      </div>
-    </header>
+<body class="body">
 
-    <section class="section">
+<header class="header">
+  <div class="header_title">
+    <button type="image" class="header_title_btnBurger"><img src="img/burger.png" alt="меню"></button>
+    <button type="image" class="header_title_btnLogo"><img src="img/group.png" alt="лого"></button>
+    <img src="img/divider.png" alt="" class="header_title_imgDividerOne">
+  </div>
+  <div class="header_buttons">
+    <button type="image" class="header_buttons_btnCall"><img src="img/call.png" alt="звонок"></button>
+    <button type="image" class="header_buttons_btnChat"><img src="img/chat.png" alt="чат"></button>
+    <button type="image" class="header_buttons_btnProfile"><img src="img/profile.png" alt="профиль"></button>
+    <img src="img/divider.png" alt="" class="header_buttons_imgDividerTwo">
+    <button type="image" class="header_buttons_btnRepair"><img src="img/repair.png" alt="услуги"></button>
+    <button type="image" class="header_buttons_btnCheckStatus"><img src="img/checkstatus.png" alt="поиск"></button>
+  </div>
+</header>
 
-      <div class="headline_one">
-        <div class="highlight_one">
-          <img src="img/highlight.png" alt="" height="40px" class="highlight">
-          <h1 class="headline_one_h1">Услуги и сервисы</h1>
-        </div>
-        <div class="header_three">
-          <button type="image" class="repair"><p>Оставить заявку</p><img src="img/repair.png" alt="услуги"></button>
-          <button type="image" class="checkstatus"><p>Статус ремонта</p><img src="img/checkstatus.png" alt="поиск"></button>
-        </div>
-      </div>
-      
+  <div class="services">
+    <div class="services_title">
+      <img src="img/highlight.png" alt="" height="40px" class="services_title_imgHighlight">
+      <h1 class="services_title_title">Услуги и сервисы</h1>
+    </div>
+    <div class="services_buttons">
+      <button type="image" class="services_buttons_btnRepair"><p>Оставить заявку</p><img src="img/repair.png" alt="услуги"></button>
+      <button type="image" class="services_buttons_btnCheckStatus"><p>Статус ремонта</p><img src="img/checkstatus.png" alt="поиск"></button>
+    </div>
+  </div>
 
-      <nav class="nav">
-        <ul class="list">
-          <li class="active nav_li_1">Ремонтируемые бренды</li>
-          <li class="nav_li_1">Ремонтируемые устройства</li> 
-          <li class="nav_li_2">Дополнительные услуги</li> 
-          <li class="nav_li_3">Цены на услуги</li>
-          <li class="nav_li_4">Адреса сервисных центров</li>
-          <li class="nav_li_5">Специальные цены</li> 
-          <li class="nav_li_6">Отзывы</li> 
-        </ul>
-      </nav>
+  <nav class="nav">
+    <ul class="nav_list">
+      <li class="nav_list_itemOne active">Ремонтируемые бренды</li>
+      <li class="nav_list_itemTwo">Ремонтируемые устройства</li>
+      <li class="nav_list_itemThree">Дополнительные услуги</li>
+      <li class="nav_list_itemFour">Цены на услуги</li>
+      <li class="nav_list_itemFive">Адреса сервисных центров</li>
+      <li class="nav_list_itemSix">Специальные цены</li>
+      <li class="nav_list_itemSeven">Отзывы</li>
+    </ul>
+  </nav>
 
-    <div class="card">
-      <div class="info">
-          <article class="description">
-            <p class="p_one">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-            <p class="p_second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-            <p class="p_third"><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-          </article>
+  <div class="about">
+    <div class="about_infoBlock">
+      <article class="about_infoBlock_display">
+        <p class="about_infoBlock_display_pOne">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+        <p class="about_infoBlock_display_pTwo">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+        <p class="about_infoBlock_display_pThree"><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+      </article>
 
-          <article class="read">
-            <img src="img/expand.png" alt="" height="24px" class="expand">
-            <p class="read_read_more">Читать далее</p>
-          </article>
-      </div>
-
-      <div class="foto">
-        <img src="img/PictureCopy.png" alt="" class="PictureCopy">
-      </div>
+      <article class="about_infoBlock_hidden">
+        <img src="img/expand.png" alt="" height="24px" class="about_infoBlock_hidden_iconExpand">
+        <p class="about_infoBlock_hidden_readText">Читать далее</p>
+      </article>
     </div>
 
-    </section>
- 
-    <footer class="footer"></footer>
-    
-  </body>
+    <div class="about_pictureCopy">
+      <img src="img/PictureCopy.png" alt="" class="about_pictureCopy_picture">
+    </div>
+  </div>
+
+<footer class="footer"></footer>
+
+</body>
 </html>
