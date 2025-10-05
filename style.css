@@ -316,5 +316,6 @@ li {
 
 .about__read {margin-top: 71px;}
 li:nth-child(7n) {margin-top: 0;}
+.navigate-menu {max-width: 1325px; margin-left: 8px; overflow-y: hidden; height: 41px;}
 }
 
