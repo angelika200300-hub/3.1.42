@@ -53,6 +53,15 @@ body {
   margin: 5px;
 }
 
+.services {
+ height: 40px;
+ display: flex;
+ align-items: center;
+ font-size: 17px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
 .services__h1 {
   width: 288px;
   font-size: 28px;
@@ -235,7 +244,7 @@ ul {
 
 .header {display: none;}
 
-.services {
+.services__title {
   margin: 0;
   padding: 0;
   display: flex;
