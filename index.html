@@ -9,72 +9,92 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body class="body">
+    <div class="body">
 
-    <header class="header">
-      <div class="header__title">
-        <button class="header__btn-burger"><img src="img/burger.png" alt="меню"></button>
-        <button class="header__btn-logo"><img src="img/group.png" alt="лого"></button>
-        <img src="img/divider.png" alt="" class="header__img-divider-left">
-      </div>
-      <div class="header__button">
-        <button class="header__btn-call"><img src="img/call.png" alt="звонок"></button>
-        <button class="header__btn-chat"><img src="img/chat.png" alt="чат"></button>
-        <button class="header__btn-profile"><img src="img/profile.png" alt="профиль"></button>
-        <img src="img/divider.png" alt="" class="header__img-divider-right">
-        <button class="header__btn-repair"><img src="img/repair.png" alt="услуги"></button>
-        <button class="header__btn-checkstatus"><img src="img/checkstatus.png" alt="поиск"></button>
-      </div>
-    </header>
+    <div class="header">
+        <div class="header_title">
+            <button class="buttonImage">
+                <img src="img/burger.png" alt="меню">
+            </button>
+            <img src="img/divider.png" alt="" class="divider">
+            <button class="buttonLogo">
+                <img src="img/group.png" alt="лого">
+            </button>
+        </div>
+        <div class="header_button">
+            <button class="buttonImage tablet">
+                <img src="img/call.png" alt="звонок">
+            </button>
+            <button class="buttonImage tablet">
+                <img src="img/chat.png" alt="чат">
+            </button>
+            <button class="buttonImage tablet">
+                <img src="img/profile.png" alt="профиль">
+            </button>
+            <img src="img/divider.png" alt="" class="divider">
+            <button class="buttonImage">
+                <img src="img/repair.png" alt="услуги">
+            </button>
+            <button class="buttonImage">
+                <img src="img/checkstatus.png" alt="поиск">
+            </button>
 
-    <section class="section">
+        </div>
+    </div>
+
+    <section>
 
       <div class="services">
-        <div class="services__title">
-          <img src="img/highlight.png" alt="" height="40px" class="services__highlight">
-          <h1 class="services__h1">Услуги и сервисы</h1>
+        <div class="services_title">
+          <img src="img/highlight.png" alt="" height="40px" class="highlight">
+          <h1 class="title">Услуги и сервисы</h1>
         </div>
-        <div class="services__buttons">
-          <button type="image" class="services__btn-repair"><p>Оставить заявку</p><img src="img/repair.png" alt="услуги"></button>
-          <button type="image" class="services__btn-checkstatus"><p>Статус ремонта</p><img src="img/checkstatus.png" alt="поиск"></button>
+        <div class="services_buttons tablet">
+          <button class="buttonImage">
+            <p>Оставить заявку</p>
+            <img src="img/repair.png" alt="услуги">
+          </button>
+          <button class="buttonImage">
+            <p>Статус ремонта</p>
+            <img src="img/checkstatus.png" alt="поиск">
+          </button>
         </div>
       </div>
       
-
-      <nav class="navigate-menu">
-        <ul class="navigate-menu__list">
-          <li class="navigate-menu__item navigate-menu__item--active">Ремонтируемые бренды</li>
-          <li class="navigate-menu__item">Ремонтируемые устройства</li> 
-          <li class="navigate-menu__item">Дополнительные услуги</li> 
-          <li class="navigate-menu__item">Цены на услуги</li>
-          <li class="navigate-menu__item">Адреса сервисных центров</li>
-          <li class="navigate-menu__item">Специальные цены</li> 
-          <li class="navigate-menu__item">Отзывы</li> 
+      <nav class="navigateMenu">
+        <ul class="navigateMenu_list">
+          <li class="navigateMenu_item active">Ремонтируемые бренды</li>
+          <li class="navigateMenu_item">Ремонтируемые устройства</li> 
+          <li class="navigateMenu_item">Дополнительные услуги</li> 
+          <li class="navigateMenu_item">Цены на услуги</li>
+          <li class="navigateMenu_item">Адреса сервисных центров</li>
+          <li class="navigateMenu_item">Специальные цены</li> 
+          <li class="navigateMenu_item">Отзывы</li> 
         </ul>
       </nav>
 
     <div class="about">
-      <div class="about__info-block">
-        <article class="about__description">
-          <p class="about__p-one">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-          <p class="about__p-two">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-          <p class="about__p-three"><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-        </article>
+      <div class="about_infoBlock">
+        <div class="about_infoBlock_display">
+          <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+          <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+          <p><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+        </div>
 
-        <article class="about__read">
-          <img src="img/expand.png" alt="" height="24px" class="about__expand">
-          <p class="about__read-more">Читать далее</p>
-        </article>
+        <div class="about_infoBlock_hidden">
+          <img src="img/expand.png" alt="" height="24px" class="expand">
+          <button class="buttonRead">Читать далее</button>
+        </div>
       </div>
 
-      <div class="about__picture">
-        <img src="img/PictureCopy.png" alt="" class="about__picture-copy">
+      <div class="about_pictureBlock">
+        <img src="img/PictureCopy.png" alt="" class="picture">
       </div>
     </div>
 
     </section>
  
-    <footer class="footer"></footer>
+    <div class="footer"></div>
     
-  </body>
+  </div>
 </html>
