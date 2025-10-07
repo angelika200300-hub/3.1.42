@@ -65,20 +65,7 @@ h1 {
 }
 
 .services_buttons {
-  display: flex;
-}
-
-.services_buttons .buttonImage {
-  display: flex;
-  width: 160px;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: #f8f8f8;
-  font-family: "TTLakes-Medium", "Arial", sans-serif;
-}
-
-.services_buttons p {
-  padding-right: 10px;
+  display: none;
 }
 
 .navigateMenu {
@@ -171,24 +158,16 @@ li {
 .divider {order: 1}
 
 .about_infoBlock_display p:nth-child(2n),
-.about_infoBlock_display p:nth-child(3n) {
-  display: none;
-}
+.about_infoBlock_display p:nth-child(3n) {display: none;}
 
-.services {
-  padding: 30px 0 0 0;
-  width: 257px;
-}
+.services {padding: 30px 0 0 0; width: 257px;}
 
-.navigateMenu {
-  padding: 30px 0 0 15px;
-}
+.navigateMenu {padding: 30px 0 0 15px;}
 
 .about {
   display: flex; 
   flex-direction: column;
   padding: 20px 0 0 0;
-
 }
 
 .about_infoBlock {
@@ -196,154 +175,31 @@ li {
   padding: 20px 15px 0 15px;
 }
 
-
-
 .about_pictureBlock .picture {
   width: 100vw; 
   border-radius: 0;
   padding: 20px 0 0 0;
 }
-
-
-}
-
-
-/*
-.header_button {width: 120px;}
-
-.header_button button {
-  align-items: center;
-  background-color: #ffffff;
-  border: none;
-}
-
-.header_btn-burger {order: -1}
-
-.header_title .header__img-divider-left {order: 0;}
-
-.header_btn-logo {margin-left: -10px;}
-
-
-
-/*
-.navigate-menu {
-  display: block;
-  unicode-bidi: isolate;
-  overflow-x: hidden;
-  margin-right: auto;
-  white-space: nowrap;
-}
-
-ul {
-  font-family: "TTLakes-Medium", "Arial", sans-serif;
-  justify-content: flex-start;
-  align-items: center;
-  overflow-x: scroll;
-  flex-wrap: nowrap;
-  margin-right: auto;
-}
-
-.about__description {
-  width: 91vw;
-  margin-left: 20px;
-  margin-right: auto;}
-
-.about__p-two,
-.about__p-three {display: none;}
-
-.about {display: flex; flex-direction: column;}
-
-.about__picture-copy {width: 100vw; border-radius: 0; margin-right: 0;}
-
-.about__read {margin-top: 2vw; margin-left: 7vw;}
-
-.services__buttons {display: none;}
-
-.services__title {display: flex; margin-bottom: 20px; margin-top: 20px; width: 91vw;}
-}
-
-@media screen and (min-width: 1000px) {
-.about__description {width: 45vw;}
-.about__picture-copy {width: 48vw;}
 }
 
 @media screen and (min-width: 1120px) {
 
 .header {display: none;}
 
-.services {
-  margin: 0;
-  padding: 0;
+.services_buttons {display: flex;}
+
+.services_buttons .buttonImage {
   display: flex;
-  justify-content: space-between;
+  width: 160px;
   align-items: center;
-  margin-top: 50px;
-}
-
-.services__title {display: flex;}
-
-.services__buttons {display: flex; align-items: center;}
-
-.services__buttons button {
-  display: flex;
-  align-items: center;
+  justify-content: flex-end;
   background-color: #f8f8f8;
-  border: none;
-}
-
-.services__buttons p {
-  padding-right: 10px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
 }
 
-.services__buttons button:nth-child(1n) {margin-right: 30px;}
+.services_buttons p {padding-right: 10px;}
 
-li:nth-child(7n) {margin-top: 0;}
+.about_infoBlock_display p:nth-child(2n) {display: none;}
 
-.navigate-menu {overflow-x: hidden; margin-left: 8px; margin-top: 20px;}
-
-ul {
-  width: 100vw;
-  overflow: hidden;
-  overflow-x: scroll;
+.about_infoBlock_display p:nth-child(3n) {display: inline;}
 }
-
-li {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.navigate-menu__item--active:nth-of-type(1) {
-  border: 2px solid #B8FFEC;
-  padding-left: 4px;
-  padding-right: 4px;
-  border-radius: 6px;
-  background-color: #ffffff;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.navigate-menu__item--active:nth-child(2n) {
-  border: none;
-  padding-left: none;
-  padding-right: none;
-  border-radius: none;
-  background-color: #f8f8f8;
-}
-
-.about__info-block {width: 517px;}
-
-.about__picture-copy {width: 48vw; margin-right: 20px;}
-
-.about__description {width: 44vw;}
-
-.about__p-two {display: none;}
-
-.about__p-three {display: inline;}
-
-.about__read {margin-top: 71px;}
-li:nth-child(7n) {margin-top: 0;}
-.navigate-menu {max-width: 1325px; margin-left: 8px; overflow-y: hidden; height: 41px;}
-}
-
-*/
