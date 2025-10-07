@@ -29,12 +29,11 @@ h1 {
 .header_title{
   display: flex;
   align-items: center;
-  width: 180px;
   justify-content: space-between;
 }
 
 .title {
-width: 235px;
+  padding-left: 20px;
 }
 
 .header_button {
@@ -165,6 +164,8 @@ li {
 .about_infoBlock_display p:nth-child(3n) {display: none;}
 
 .services {padding: 30px 0 0 0; width: 100vw;}
+
+.title {padding-left: 15px;}
 
 .navigateMenu {padding: 30px 0 0 15px;}
 
