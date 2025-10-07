@@ -197,6 +197,8 @@ li {
   font-family: "TTLakes-Medium", "Arial", sans-serif;
 }
 
+.navigateMenu {height: 37px; overflow-y: hidden;}
+
 .services_buttons p {padding-right: 10px;}
 
 .about_infoBlock_display p:nth-child(2n) {display: none;}
