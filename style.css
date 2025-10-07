@@ -142,10 +142,11 @@ li {
 }
 
 .about_infoBlock_hidden .buttonRead {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   border: none;
   font-size: 16px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
+  color: #1B1C21;
 }
 
 .about_pictureBlock .picture{
@@ -176,6 +177,7 @@ li {
 
 .services {
   padding: 30px 0 0 0;
+  width: 257px;
 }
 
 .navigateMenu {
