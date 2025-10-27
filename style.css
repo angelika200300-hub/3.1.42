@@ -18,7 +18,20 @@ h1 {
   white-space: nowrap;
 }
 
-.header {
+.body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.aside {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.aside_header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -27,11 +40,26 @@ h1 {
   padding: 20px;
 }
 
-.header_title{
+.aside .aside_header {
+ width: 280px;
+ border: none;
+}
+
+.aside_body {
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.header_title,
+.aside_menuTop {
   display: flex;
   align-items: center;
   width: 180px;
   justify-content: space-between;
+}
+
+.aside .aside_menuTop {
+ width: 160px;
 }
 
 .header_button {
@@ -69,20 +97,24 @@ h1 {
   display: none;
 }
 
+.section {
+  flex-grow: 1;
+  overflow-x: scroll;
+}
+
 .navigateMenu {
-  overflow-x: hidden;
   white-space: nowrap;
   padding: 30px 0 0 20px;
 }
 
-ul {
+.navigateMenu_list {
   display: flex;
   list-style: none;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   overflow-x: scroll;
 }
 
-li {
+.navigateMenu_item {
   color: #7E7E82;
   font-size: 16px;
   padding: 8px 18px 8px 18px;
@@ -95,10 +127,61 @@ li {
   background-color: #ffffff;
 }
 
+.aside_navigateMenu {
+  padding: 30px 0 0 0;
+}
+
+.aside_navigateMenu_active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 143px;
+  color: #7E7E82;
+  padding: 0 0 32px 0;
+}
+
+.aside_navigateMenu_item {
+  padding: 0 0 40px 20px;
+}
+
+.aside_fotter {
+  position: fixed;
+  bottom: 20px;
+}
+
+.aside_button {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  padding: 0 0 10px 20px;
+}
+
+.aside_contact {
+  padding: 0 0 30px 20px;
+  list-style: none;
+  line-height: 35px;
+}
+
+.aside_number {
+  font-size: 24px;
+}
+
+.aside_language {
+display: flex;
+  width: 100px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+
+.aside_language_item.active {
+  color: #7E7E82;
+}
+
 .about {
-  display: grid;
-  grid-template-areas: "info foto"
-                       "info foto";
+  display: flex;
+
   padding: 30px 20px 0 20px;     
   font-size: 14px;
   color: #1B1C21;
@@ -138,7 +221,7 @@ li {
 }
 
 .about_pictureBlock .picture{
-  width: 47vw;
+  width: 35vw;
   border-radius: 10px;
 }
 
@@ -181,6 +264,8 @@ li {
   border-radius: 0;
   padding: 20px 0 0 0;
 }
+
+.aside {display: none;}
 }
 
 @media screen and (min-width: 1120px) {
