@@ -117,6 +117,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   display: flex;
   list-style: none;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
+  overflow-x: scroll;
 }
 
 .navigateMenu_item {
@@ -153,11 +154,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .aside_fotter {
   position: fixed;
   bottom: 20px;
-  
-}
-
-.aside_top {
-
 }
 
 .aside_button {
@@ -251,12 +247,12 @@ display: flex;
 
 .divider {order: 1}
 
-.section {margin-left: 0;}
-
 .about_infoBlock_display p:nth-child(2n),
 .about_infoBlock_display p:nth-child(3n) {display: none;}
 
 .services {padding: 30px 0 0 0; width: 257px;}
+
+.section {margin-left: 0;}
 
 .navigateMenu {padding: 30px 0 0 15px;}
 
