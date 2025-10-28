@@ -27,7 +27,9 @@ h1 {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  position: fixed;
   min-height: 100vh;
+  width: 320px;
 }
 
 .header,
@@ -75,6 +77,9 @@ h1 {
   border: none;
 }
 
+button:hover {transform: scale(0.95);transition-duration: 0.5s;filter: Grayscale(0.3);}
+button:active {transform: scale(1.10);transition-duration: 0.5s;}
+
 .buttonLogo {
   background-color: #ffffff;
   border: none;
@@ -100,6 +105,7 @@ h1 {
 .section {
   flex-grow: 1;
   overflow-x: scroll;
+  margin-left: 320px;
 }
 
 .navigateMenu {
@@ -111,7 +117,6 @@ h1 {
   display: flex;
   list-style: none;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
-  overflow-x: scroll;
 }
 
 .navigateMenu_item {
@@ -148,6 +153,11 @@ h1 {
 .aside_fotter {
   position: fixed;
   bottom: 20px;
+  
+}
+
+.aside_top {
+
 }
 
 .aside_button {
@@ -240,6 +250,8 @@ display: flex;
 .header_button {width: 102px;}
 
 .divider {order: 1}
+
+.section {margin-left: 0;}
 
 .about_infoBlock_display p:nth-child(2n),
 .about_infoBlock_display p:nth-child(3n) {display: none;}
